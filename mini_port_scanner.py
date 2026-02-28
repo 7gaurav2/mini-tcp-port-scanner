@@ -51,3 +51,6 @@ def run_port_scanner():
     print(f"Scan complete. {len(open_ports)} open port(s) found.")
     print("=" * 40)
 
+if __name__ == "__main__":
+    run_port_scanner()
+
